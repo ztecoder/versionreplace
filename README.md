@@ -1,2 +1,6 @@
-# versionreplace
-Download new plat version from FTP, unzip file, search and replace some compile options
+平台版本自动替换设计方案：
+1、FTP登录版本服务器后，判断平台版本是否更新；
+2、将平台版本下载到本地；
+3、解压缩平台版本压缩包；
+4、修改某些makefile已适应WCS版本编译；
+5、将平台版本拷贝到WCS版本的指定目录；
